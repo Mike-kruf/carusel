@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<p id="counter">0</p>
+
+<script>
+var counter = 
+document.getElementById("counter");
+var x = 0;
+var mycounter = setInterval(function() {
+    x++;
+    counter.innerHTML = x},1000);
+</script>
+</body>
+</html>
